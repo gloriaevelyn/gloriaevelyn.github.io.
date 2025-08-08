@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <style>
+        .redes-container {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .red-social {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: #8300a2;
+        }
+        .red-social p {
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        .red-social img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="nav"
+             id="nav">
+        <button
+            class= "btn-hamburger"
+            id="btnMenu">
+            <i class="fa-solid fa-xmark" id="icono"></i>
+        </button>
+        <div class="logo">
+            <img src="imagenes/logotipo.png" width="100" alt="Logotipo">
+        </div>
+        <ul>
+            <li><a href="acerca_de_mi.html">Acerca de mí</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><i class="fa-solid fa-door-open"></i>Salir</li>
+        </ul>
+    </section>
+    <header role="banner">
+        <h1>Contacto</h1>
+        <h2><strong>Redes Sociales</strong></h2>
+    </header>
+    <main role="main">
+
+        <div class="redes-container">
+            <div class="red-social">
+                <p>Facebook</p>
+                <a href="https://www.facebook.com/share/1CyLCaeP4N/" target="_blank" rel="noopener noreferrer">
+                    <img src="imagenes/facebook.png" alt="Ícono de Facebook">
+                </a>
+            </div>
+            <div class="red-social">
+                <p>Instagram</p>
+                <a href="https://www.instagram.com/ev_ew__?igsh=MWV6ZDJ2b3A3OWMwbQ==" target="_blank" rel="noopener noreferrer">
+                    <img src="imagenes/instagram.png" alt="Ícono de Instagram">
+                </a>
+            </div>
+        </div>
+
+        <iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.890151892793!2d-99.18960562478381!3d19.50336128179118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8740b524a27%3A0xfb02529ee38b8bf6!2sUniversidad%20Aut%C3%B3noma%20Metropolitana%20Azcapotzalco!5e0!3m2!1ses-419!2smx!4v1754335072400!5m2!1ses-419!2smx"
+                width="400" height="300" style="border:0;" allowfullscreen=""
+                loading="lazy"
+referrerpolicy="no-referrer-when-downgrade" title="Mapa de
+ubicación"></iframe>
+
+        <section>
+            <h2>Contactar</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre"
+required placeholder="Tu nombre completo">
+                </div>
+                <div>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email"
+required placeholder="tu@correo.com">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5"
+required placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N_yuPf1ITjE?si=xuIXtNycvtFeTPxP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
