@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;
+   padding:0;}
+
+
+/* 1. DIV. Propiedades básicas (ancho, alto y color) ------------------------------------------- */
+
+/*
+#div1 {
+	width:100px;
+	height:100px;
+	background-color:yellow;
+}
+
+#div2 {
+	width:100px;
+	height:100px;
+	background-color:#F8F;
+}
+
+#div3 {
+	width:100px;
+	height:100px;
+	background-color:rgb(204,51,0);
+}
+
+#div4 {
+	width:100px;
+	height:100px;
+	background-color:hsl(120,100%,80%);
+}
+
+#div5 {
+	width:100px;
+	height:100px;
+	background-color:rgba(204,0,0,.25);
+}*/
+
+/* 2. DIV. Z-index y position (top / right / bottom / left) ----------------------------------------------------------- */ 
+
+#div1 {
+	width:100px;
+	height:100px;
+	background-color:yellow;
+	z-index: 1;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#div2 {
+	width:100px;
+	height:100px;
+	background-color:#F8F;
+	z-index: 2;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+#div3 {
+	width:100px;
+	height:100px;
+	background-color:rgb(204,51,0);
+	z-index: 3;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+#div4 {
+	width:100px;
+	height:100px;
+	background-color:hsl(120,100%,80%);
+	z-index: 4;
+	position: absolute;
+	top: 55px;
+	left: 55px;
+}
+
+#div5 {
+	width:100px;
+	height:100px;
+	background-color:rgba(204,0,0,.25);
+	z-index: 5;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
